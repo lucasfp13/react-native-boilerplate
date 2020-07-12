@@ -1,3 +1,5 @@
+import 'react-native-gesture-handler';
+
 import React from 'react';
 import { Text, StyleSheet, StatusBar, SafeAreaView } from 'react-native';
 

@@ -10,14 +10,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.0",
     "axios": "^0.19.2",
     "react": "16.13.1",
-    "react-native": "0.63.0"
+    "react-native": "0.63.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.1.1",
+    "react-native-screens": "^2.9.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@types/styled-components": "^5.1.1",
     "babel-jest": "^25.1.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.2.0",
