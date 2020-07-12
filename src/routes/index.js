@@ -7,7 +7,12 @@ import SignUp from '../screens/SignUp';
 const Auth = createStackNavigator();
 
 const AuthRoutes = () => (
-  <Auth.Navigator>
+  <Auth.Navigator
+    screenOptions={{
+      headerTintColor: '#fff',
+      headerStyle: { backgroundColor: '#c96a65' },
+    }}
+  >
     <Auth.Screen name="SignIn" component={SignIn} />
     <Auth.Screen name="SignUp" component={SignUp} />
   </Auth.Navigator>
